@@ -1,0 +1,15 @@
+@MPv2_API_HostAddress = https://localhost:7290
+
+GET {{MPv2_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{MPv2_API_HostAddress}}/api/user
+Content-Type: application/json
+
+{
+  //User
+}
+
+###

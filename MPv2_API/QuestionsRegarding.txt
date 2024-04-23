@@ -1,0 +1,10 @@
+1)
+Is using [JsonIgnore] on the fields that have relationships with other models good practice?
+	In this context it is so that PUT and POST can be done.
+
+2)
+How would I make API calls to join tables together?
+	Do I need to map out my own joining tables? Because they weren't created in during EF scaffolding.
+
+3) 
+Is it okay to use LINQ for HTTP requests?

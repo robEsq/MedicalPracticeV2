@@ -1,0 +1,24 @@
+User:
+{
+  "title": "Mr",
+  "fName": "Hugh",
+  "middleInitial": "H",
+  "lName": "Mann",
+  "medicareNo": "8885243640183888",
+  "homePhoneNo": "0247337945",
+  "mobilePhoneNo": "0411474962",
+  "dateOfBirth": "2000-04-23",
+  "gender": "male"
+}
+
+{
+  "title": "Mr",
+  "fName": "Big",
+  "middleInitial": "H",
+  "lName": "Shack",
+  "medicareNo": "8811243640181188",
+  "homePhoneNo": "0247337900",
+  "mobilePhoneNo": "0411224962",
+  "dateOfBirth": "1997-04-23",
+  "gender": "male"
+}

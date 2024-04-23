@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MPv2_API.props" />
+</Project>
