@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MPv2_API.Models;
 using System.Collections;
+using System.Text.Json.Serialization;
 
 namespace MPv2_API.Controllers {
     [Route("api/[controller]")]
@@ -36,7 +37,7 @@ namespace MPv2_API.Controllers {
         // Create new user
         // Ask about Data Transfer Objects DTO, then convert this to it
         [HttpPost]
-        public async Task<ActionResult<List<User>>> AddUser(User user) {
+        public async Task<ActionResult<User>> AddUser(User user) {
             using (dbContext = new _MPv2DbContext()) {
                 // This stops unintentional overwriting of existing records in User
                 foreach (User u in this.dbContext.Users.ToList()) {
@@ -48,7 +49,7 @@ namespace MPv2_API.Controllers {
                 dbContext.Users.Add(user);
                 await dbContext.SaveChangesAsync();
                 
-                return Ok(await GetAllUsers());
+                return Ok($"User {user.FName} {user.LName} added!");
             }
         }
         

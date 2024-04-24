@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\controllers\\practitionertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\controllers\\practitionertypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\controllers\\daycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\controllers\\daycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\controllers\\practitionercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\controllers\\practitionercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\models\\practitioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\models\\practitioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99AB06DA-DC39-455D-8A81-EECF887CCB7E}|Solution Items{99AB06DA-DC39-455D-8A81-EECF887CCB7E}|E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\DummyJSON.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{99AB06DA-DC39-455D-8A81-EECF887CCB7E}|Solution Items{99AB06DA-DC39-455D-8A81-EECF887CCB7E}|solutionrelative:DummyJSON.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\models\\_mpv2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\models\\_mpv2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|e:\\tafe\\cert iv it - programming\\00 self study\\medicalpractice\\medicalpracticev2_api\\mpv2_api\\mpv2_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D4707A-814E-4182-A9A4-EA42C0CC7A4D}|MPv2_API\\MPv2_API.csproj|solutionrelative:mpv2_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PractitionerTypeController.cs",
+              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\PractitionerTypeController.cs",
+              "RelativeDocumentMoniker": "MPv2_API\\Controllers\\PractitionerTypeController.cs",
+              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\PractitionerTypeController.cs",
+              "RelativeToolTip": "MPv2_API\\Controllers\\PractitionerTypeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:53:41.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DayController.cs",
+              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\DayController.cs",
+              "RelativeDocumentMoniker": "MPv2_API\\Controllers\\DayController.cs",
+              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\DayController.cs",
+              "RelativeToolTip": "MPv2_API\\Controllers\\DayController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:51:11.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Day.cs",
+              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\Day.cs",
+              "RelativeDocumentMoniker": "MPv2_API\\Models\\Day.cs",
+              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\Day.cs",
+              "RelativeToolTip": "MPv2_API\\Models\\Day.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T04:49:24.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DummyJSON.txt",
               "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\DummyJSON.txt",
               "RelativeDocumentMoniker": "DummyJSON.txt",
               "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\DummyJSON.txt",
               "RelativeToolTip": "DummyJSON.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-23T04:50:03.428Z",
+              "WhenOpened": "2024-04-24T04:37:00.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\User.cs",
               "RelativeDocumentMoniker": "MPv2_API\\Models\\User.cs",
               "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\User.cs",
               "RelativeToolTip": "MPv2_API\\Models\\User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:48:39.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MPv2_API\\Controllers\\UserController.cs",
-              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MPv2_API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowBUAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:48:19.233Z",
+              "WhenOpened": "2024-04-24T04:26:35.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_MPv2DbContext.cs",
-              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\_MPv2DbContext.cs",
-              "RelativeDocumentMoniker": "MPv2_API\\Models\\_MPv2DbContext.cs",
-              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\_MPv2DbContext.cs",
-              "RelativeToolTip": "MPv2_API\\Models\\_MPv2DbContext.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAswIcAAAA3AAAA",
+              "Title": "Practitioner.cs",
+              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\Practitioner.cs",
+              "RelativeDocumentMoniker": "MPv2_API\\Models\\Practitioner.cs",
+              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Models\\Practitioner.cs",
+              "RelativeToolTip": "MPv2_API\\Models\\Practitioner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:46:21.412Z",
+              "WhenOpened": "2024-04-23T12:34:46.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PractitionerController.cs",
+              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\PractitionerController.cs",
+              "RelativeDocumentMoniker": "MPv2_API\\Controllers\\PractitionerController.cs",
+              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\PractitionerController.cs",
+              "RelativeToolTip": "MPv2_API\\Controllers\\PractitionerController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T05:34:24.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MPv2_API\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MPv2_API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T02:48:19.233Z",
               "EditorCaption": ""
             }
           ]
