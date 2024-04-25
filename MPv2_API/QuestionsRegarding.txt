@@ -8,3 +8,13 @@ How would I make API calls to join tables together?
 
 3) 
 Is it okay to use LINQ for HTTP requests?
+
+4)
+How to join tables in ASP.NET?
+
+5)
+How do you apply [JsonIgnore] to POST/PUT but not GET?
+
+
+6)
+How to call another HTTP request from another controller?

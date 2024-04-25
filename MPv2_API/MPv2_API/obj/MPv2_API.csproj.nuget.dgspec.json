@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\MPv2_API.csproj": {}
+    "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2\\MPv2_API\\MPv2_API\\MPv2_API.csproj": {}
   },
   "projects": {
-    "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\MPv2_API.csproj": {
+    "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2\\MPv2_API\\MPv2_API\\MPv2_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\MPv2_API.csproj",
+        "projectUniqueName": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2\\MPv2_API\\MPv2_API\\MPv2_API.csproj",
         "projectName": "MPv2_API",
-        "projectPath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\MPv2_API.csproj",
+        "projectPath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2\\MPv2_API\\MPv2_API\\MPv2_API.csproj",
         "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
-        "outputPath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\obj\\",
+        "outputPath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2\\MPv2_API\\MPv2_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

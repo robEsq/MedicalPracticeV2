@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using System.ComponentModel;
 
 namespace MPv2_API.Models;
 
-public partial class User {
+public partial class User
+{
     public int UserId { get; set; }
 
     public string? Title { get; set; }
@@ -27,6 +25,9 @@ public partial class User {
     public DateOnly DateOfBirth { get; set; }
 
     public string Gender { get; set; } = null!;
+
+    [JsonIgnore]
+    public virtual ICollection<AppointmentPractitionerPatient> AppointmentPractitionerPatients { get; set; } = new List<AppointmentPractitionerPatient>();
 
     [JsonIgnore]
     public virtual ICollection<Practitioner> Practitioners { get; set; } = new List<Practitioner>();

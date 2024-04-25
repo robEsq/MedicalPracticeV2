@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8sjXr6nVZw2z5RIYQxXlsrVQr5/0VlRcEelqsTdMY3CCtmpXWheyWoPLtcjtbRXGXfVx1GOjCEOFZn2ay1Wy6w==",
+  "dgSpecHash": "MvE3MlUaEETJ3a4Xnww9LGx2QaZPdGEVZNLxOkcVOhB64786U54QrHsnp8vfGQKvEjnK2F6hr16DNNVJhe2WNg==",
   "success": true,
-  "projectFilePath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2_API\\MPv2_API\\MPv2_API\\MPv2_API.csproj",
+  "projectFilePath": "E:\\TAFE\\Cert IV IT - Programming\\00 Self Study\\MedicalPractice\\MedicalPracticeV2\\MPv2_API\\MPv2_API\\MPv2_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Robert\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Robert\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

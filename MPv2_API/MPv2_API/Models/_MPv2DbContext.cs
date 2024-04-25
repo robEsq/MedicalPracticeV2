@@ -4,12 +4,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MPv2_API.Models;
 
-public partial class _MPv2DbContext : DbContext {
-    public _MPv2DbContext() {
+public partial class _MPv2DbContext : DbContext
+{
+    public _MPv2DbContext()
+    {
     }
 
     public _MPv2DbContext(DbContextOptions<_MPv2DbContext> options)
-        : base(options) {
+        : base(options)
+    {
     }
 
     public virtual DbSet<Address> Addresses { get; set; }
@@ -30,8 +33,10 @@ public partial class _MPv2DbContext : DbContext {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=DESKTOP-K8MR6C6\\MSSQLSERVER01;Database=MedicalPracticeV2;User=RobertSSA1;Password=black-Panther12!;Encrypt=true;TrustServerCertificate=true");
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder) {
-        modelBuilder.Entity<Address>(entity => {
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Address>(entity =>
+        {
             entity.HasKey(e => e.AddressId).HasName("PK__Address__26A111AD6FD99692");
 
             entity.ToTable("Address");
@@ -55,7 +60,8 @@ public partial class _MPv2DbContext : DbContext {
                 .HasColumnName("suburb");
         });
 
-        modelBuilder.Entity<Appointment>(entity => {
+        modelBuilder.Entity<Appointment>(entity =>
+        {
             entity.HasKey(e => e.AppId).HasName("PK__Appointm__C00006D592163A11");
 
             entity.ToTable("Appointment");
@@ -65,32 +71,34 @@ public partial class _MPv2DbContext : DbContext {
             entity.Property(e => e.AppTime).HasColumnName("appTime");
         });
 
-        modelBuilder.Entity<AppointmentPractitionerPatient>(entity => {
-            entity
-                .HasNoKey()
-                .ToTable("Appointment_Practitioner_Patient");
+        modelBuilder.Entity<AppointmentPractitionerPatient>(entity =>
+        {
+            entity.HasKey(e => new { e.AppId, e.PractitionerId, e.PatientId }).HasName("PK_Appintment_Practitione_Patient");
+
+            entity.ToTable("Appointment_Practitioner_Patient");
 
             entity.Property(e => e.AppId).HasColumnName("appId");
-            entity.Property(e => e.PatientId).HasColumnName("patientId");
             entity.Property(e => e.PractitionerId).HasColumnName("practitionerId");
+            entity.Property(e => e.PatientId).HasColumnName("patientId");
 
-            entity.HasOne(d => d.App).WithMany()
+            entity.HasOne(d => d.App).WithMany(p => p.AppointmentPractitionerPatients)
                 .HasForeignKey(d => d.AppId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Appointme__appId__07C12930");
 
-            entity.HasOne(d => d.Patient).WithMany()
+            entity.HasOne(d => d.Patient).WithMany(p => p.AppointmentPractitionerPatients)
                 .HasForeignKey(d => d.PatientId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Appointme__patie__09A971A2");
 
-            entity.HasOne(d => d.Practitioner).WithMany()
+            entity.HasOne(d => d.Practitioner).WithMany(p => p.AppointmentPractitionerPatients)
                 .HasForeignKey(d => d.PractitionerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Appointme__pract__08B54D69");
         });
 
-        modelBuilder.Entity<Day>(entity => {
+        modelBuilder.Entity<Day>(entity =>
+        {
             entity.HasKey(e => e.DayId).HasName("PK__Day__B0FA5F20D349A4F4");
 
             entity.ToTable("Day");
@@ -113,7 +121,8 @@ public partial class _MPv2DbContext : DbContext {
                         .HasForeignKey("DayId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("FK__Availabil__dayId__60A75C0F"),
-                    j => {
+                    j =>
+                    {
                         j.HasKey("DayId", "PractitionerId");
                         j.ToTable("Availability");
                         j.IndexerProperty<int>("DayId").HasColumnName("dayId");
@@ -121,7 +130,8 @@ public partial class _MPv2DbContext : DbContext {
                     });
         });
 
-        modelBuilder.Entity<Practitioner>(entity => {
+        modelBuilder.Entity<Practitioner>(entity =>
+        {
             entity.HasKey(e => e.PractitionerId).HasName("PK__Practiti__316DB5DC731A804D");
 
             entity.ToTable("Practitioner");
@@ -149,7 +159,8 @@ public partial class _MPv2DbContext : DbContext {
                         .HasForeignKey("PractitionerId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("FK__Practitio__pract__5BE2A6F2"),
-                    j => {
+                    j =>
+                    {
                         j.HasKey("PractitionerId", "PracTypeId").HasName("PK_Prac_PracType");
                         j.ToTable("Practitioner_PracType");
                         j.IndexerProperty<int>("PractitionerId").HasColumnName("practitionerId");
@@ -157,7 +168,8 @@ public partial class _MPv2DbContext : DbContext {
                     });
         });
 
-        modelBuilder.Entity<PractitionerType>(entity => {
+        modelBuilder.Entity<PractitionerType>(entity =>
+        {
             entity.HasKey(e => e.PracTypeId).HasName("PK__Practiti__E78B7D23CF95323F");
 
             entity.ToTable("PractitionerType");
@@ -168,7 +180,8 @@ public partial class _MPv2DbContext : DbContext {
                 .HasColumnName("pracTypeName");
         });
 
-        modelBuilder.Entity<User>(entity => {
+        modelBuilder.Entity<User>(entity =>
+        {
             entity.HasKey(e => e.UserId).HasName("PK__User__CB9A1CFF431FB1F5");
 
             entity.ToTable("User");
@@ -215,7 +228,8 @@ public partial class _MPv2DbContext : DbContext {
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
                         .HasConstraintName("FK__User_Addr__userI__6B24EA82"),
-                    j => {
+                    j =>
+                    {
                         j.HasKey("UserId", "AddressId");
                         j.ToTable("User_Address");
                         j.IndexerProperty<int>("UserId").HasColumnName("userId");
