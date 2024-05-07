@@ -19,7 +19,5 @@ public partial class Practitioner
 
     [JsonIgnore]
     public virtual ICollection<Day> Days { get; set; } = new List<Day>();
-
-    [JsonIgnore]
     public virtual ICollection<PractitionerType> PracTypes { get; set; } = new List<PractitionerType>();
 }
