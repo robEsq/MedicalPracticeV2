@@ -21,11 +21,11 @@ Ver 0.021 08.05.2024
 4. However you can copy the URLs to be used with Postman.
 5. The URLs are structured as:
 
-   *https://localhost:7290/api/{name of the entity}*
+   *https://<i></i>localhost:7290/api/{name of the entity}*
 
    E.g.:
 
-    *https://localhost:7290/api/User/10001*
+    *https://<i></i>localhost:7290/api/User/10001*
 
    Gets User with ID '10001'
    
