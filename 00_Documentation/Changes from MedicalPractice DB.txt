@@ -1,0 +1,12 @@
+> Now 3rd Normal Form. Record and attribiute repitition reduced
+> Attribute name changes
+	- e.g., '..._ref' to '...Id'
+> Patient table removed
+> User table added, uses same definition of Patient table
+	- This ensures that there is potential to add new roles for the database
+> Removed all like attriburtes from Practitioner table that were also found on Patient table
+	- Practitioner now depends on User table
+> Added 'Id' attribute to Day table
+> Separated Address from User
+	- Reason being that multiple Users can be from the same address.
+> IDs for Appointments table have been adjusted to fit the new User-Practitioner  IDs

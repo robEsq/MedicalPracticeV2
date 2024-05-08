@@ -9,6 +9,7 @@ namespace MPv2_API.Controllers {
     public class AppointmentController : ControllerBase {
         _MPv2DbContext dbContext;
 
+/*
         // Get all appointments
         [HttpGet]
         public async Task<ActionResult<List<AppointmentPractitionerPatient>>> GetAllAppointments() {
@@ -53,5 +54,6 @@ namespace MPv2_API.Controllers {
                 return Ok($"Practitioner with ID {id} removed from database!");
             }
         }
+*/
     }
 }

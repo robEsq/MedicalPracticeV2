@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace MPv2_API.Models;
 
@@ -12,6 +11,11 @@ public partial class Appointment
 
     public TimeOnly AppTime { get; set; }
 
-    [JsonIgnore]
-    public virtual ICollection<AppointmentPractitionerPatient> AppointmentPractitionerPatients { get; set; } = new List<AppointmentPractitionerPatient>();
+    public int PractitionerId { get; set; }
+
+    public int PatientId { get; set; }
+
+    public virtual User Patient { get; set; } = null!;
+
+    public virtual Practitioner Practitioner { get; set; } = null!;
 }

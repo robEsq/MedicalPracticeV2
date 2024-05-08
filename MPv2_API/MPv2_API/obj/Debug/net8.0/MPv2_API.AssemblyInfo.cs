@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MPv2_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36cd2c2229238a5bac58cdd55c62390abdd5c578")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4218fa33084d4c1a589d9adefe089d4f9756c260")]
 [assembly: System.Reflection.AssemblyProductAttribute("MPv2_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MPv2_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

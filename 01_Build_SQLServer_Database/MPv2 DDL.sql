@@ -1,0 +1,57 @@
+CREATE DATABASE MPv2;
+
+USE MPv2;
+
+CREATE TABLE [Address] (
+	addressId INTEGER NOT NULL IDENTITY(3000, 1) PRIMARY KEY,
+	houseUnitLotNo NVARCHAR(5) NOT NULL,
+	street NVARCHAR(50) NOT NULL,
+	suburb NVARCHAR(50) NOT NULL,
+	state NVARCHAR(3) NOT NULL,
+	postcode NCHAR(4) NOT NULL
+);
+
+CREATE TABLE [User] (
+	userId INTEGER NOT NULL IDENTITY(10000, 1) PRIMARY KEY,
+	title NVARCHAR(20),
+	fName NVARCHAR(50) NOT NULL,
+	middleInitial NCHAR(1),
+	lName NVARCHAR(50) NOT NULL,
+	medicareNo NCHAR(16),
+	homePhoneNo NCHAR(10),
+	mobilePhoneNo NCHAR(10),
+	dateOfBirth DATE NOT NULL,
+	gender NVARCHAR(20) NOT NULL,
+	addressId INTEGER NOT NULL FOREIGN KEY REFERENCES [Address](addressId)
+);
+
+CREATE TABLE [PractitionerType] (
+	pracTypeId INTEGER NOT NULL IDENTITY(1, 1) PRIMARY KEY,
+	pracTypeName NVARCHAR(50) NOT NULL
+);
+
+CREATE TABLE [Practitioner] (
+	practitionerId INTEGER NOT NULL IDENTITY(100,1) PRIMARY KEY,
+	userId INTEGER NOT NULL FOREIGN KEY REFERENCES [User](userId),
+	medicalRegistrationNo NCHAR(11) NOT NULL,
+	pracTypeId INTEGER NOT NULL FOREIGN KEY REFERENCES [PractitionerType](pracTypeId)
+);
+
+CREATE TABLE [Day] (
+	dayId INTEGER NOT NULL PRIMARY KEY,
+	dayName NVARCHAR(9) NOT NULL,
+);
+
+CREATE TABLE [Availability] (
+	practitionerId INTEGER NOT NULL FOREIGN KEY REFERENCES [Practitioner](practitionerId),
+	dayId INTEGER NOT NULL FOREIGN KEY REFERENCES [Day](dayId),
+	CONSTRAINT PK_Availability PRIMARY KEY (dayId, practitionerId)
+);
+
+CREATE TABLE [Appointment] (
+	appId INTEGER NOT NULL IDENTITY (2000, 1) PRIMARY KEY,
+	appDate DATE NOT NULL,
+	appTime TIME NOT NULL,
+	practitionerId INTEGER NOT NULL FOREIGN KEY REFERENCES [Practitioner](practitionerId),
+	patientId INTEGER NOT NULL FOREIGN KEY REFERENCES [User](userId)
+);

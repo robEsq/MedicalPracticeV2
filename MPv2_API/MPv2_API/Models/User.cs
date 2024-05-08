@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace MPv2_API.Models;
 
@@ -26,12 +25,11 @@ public partial class User
 
     public string Gender { get; set; } = null!;
 
-    [JsonIgnore]
-    public virtual ICollection<AppointmentPractitionerPatient> AppointmentPractitionerPatients { get; set; } = new List<AppointmentPractitionerPatient>();
+    public int AddressId { get; set; }
 
-    [JsonIgnore]
+    public virtual Address Address { get; set; } = null!;
+
+    public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
+
     public virtual ICollection<Practitioner> Practitioners { get; set; } = new List<Practitioner>();
-
-    [JsonIgnore]
-    public virtual ICollection<Address> Addresses { get; set; } = new List<Address>();
 }

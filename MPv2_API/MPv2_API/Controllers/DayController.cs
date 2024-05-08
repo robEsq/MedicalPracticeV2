@@ -10,6 +10,7 @@ namespace MPv2_API.Controllers {
     public class DayController : ControllerBase {
         _MPv2DbContext dbContext;
 
+/*
         // Get days and the corresponding available practitioner(s)
         [HttpGet()]
         public async Task<ActionResult<List<Day>>> GetPractitionerAvailabilities() {
@@ -35,5 +36,6 @@ namespace MPv2_API.Controllers {
                 return Ok(day);
             }
         }
+*/
     }
 }

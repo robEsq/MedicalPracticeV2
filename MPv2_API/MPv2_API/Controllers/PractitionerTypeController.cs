@@ -9,6 +9,7 @@ namespace MPv2_API.Controllers {
     public class PractitionerTypeController : ControllerBase {
         _MPv2DbContext dbContext;
 
+/*
         // Get disciplines and the corresponding practitioner(s)
         [HttpGet]
         public async Task<ActionResult<List<PractitionerType>>> GetPractitionerTypes() {
@@ -95,5 +96,6 @@ namespace MPv2_API.Controllers {
                 return Ok($"Practitioner type with ID {id} removed from database!");
             }
         }
+*/
     }
 }

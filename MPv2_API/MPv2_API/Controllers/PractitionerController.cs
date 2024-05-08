@@ -22,7 +22,7 @@ namespace MPv2_API.Controllers {
 
         // Get practitioner by Id
         [HttpGet("{id}")]
-        public async Task<ActionResult<Practitioner>> GetPractitioner(int id) {
+        public ActionResult<Practitioner> GetPractitioner(int id) {
             using (dbContext = new _MPv2DbContext()) {
                 var practitioner = dbContext.Practitioners.Include(x => x.User)
                     .AsNoTracking().FirstOrDefault(p => p.PractitionerId == id);
@@ -88,7 +88,7 @@ namespace MPv2_API.Controllers {
 
                 await dbContext.SaveChangesAsync();
 
-                return Ok(await GetPractitioner(id));
+                return Ok(GetPractitioner(id));
             }
         }
 
